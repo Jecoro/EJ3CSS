@@ -1,0 +1,107 @@
+body{
+    background-color: gainsboro;
+}
+div.cuaderno a:after{
+    content:url('imagenes/link.png');
+    padding-left:1em;
+}
+
+div.bloqueexplicacion > ol {
+    border: dotted 0.1em black;
+    background-color:white;
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+}
+
+div.bloqueexplicacion > ul {
+    border: dashed 0.1em blue;
+    background-color:white;
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+}
+
+div.bloqueexplicacion dd {
+    border: dotted 0.1em black;
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+    background-color: #ffd6d6;
+}
+h1{
+    background-color: darkblue;
+    color: rgb(233, 229, 183);
+    padding: 1px;
+    text-align: center;
+}
+
+.lateral{
+    float: left;
+    background-color: darkblue;
+    width: 15%;
+    min-height: 91vh;
+}
+.central{
+    float: left;
+    width: 83.7%;
+    border: 1px solid red;
+    margin-left: 1%;
+    padding: 1px;
+    background-color: rgb(171, 245, 237);
+}
+.pie{
+    margin-top: 46%;
+    text-align: right;
+    position: relative;
+    background-color: darkblue;
+    color: yellow;
+    padding: 1px;
+}
+li{
+    color: yellow;
+}
+
+a{
+    color: white;
+}
+
+img{
+    width: 280px;
+    height: 100px;
+    
+}
+
+.aviso{
+    border: 1px solid red;
+    background-image: url("imagenes/construccion.png"),
+                      url("imagenes/construccion.png");                
+    background-repeat:no-repeat,
+                      no-repeat;
+    background-position-x: 33%,67%;
+    background-position-y: 40%;
+    
+    /*Introducimos 2 imagenes de fondo y las colocamos consecutivamente en el eje X*/
+}
+
+.tituloaviso{
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.cuerpoaviso{
+    text-align: center;
+}
+
+.areaLimpia{
+    background-color: rgb(255, 255, 255);
+    float: right;
+    border: 2px dashed darkblue;
+    
+}
+
+.areaLimpia>.tablaContenido>p{
+    margin-left: 5%;
+}
+
+.areaLimpia>.tablaContenido>ol>li>a{
+    color: blue;
+}
