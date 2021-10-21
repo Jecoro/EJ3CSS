@@ -1,5 +1,6 @@
 body{
     background-color: gainsboro;
+    margin-bottom: 40px;
 }
 div.cuaderno a:after{
     content:url('imagenes/link.png');
@@ -42,18 +43,21 @@ h1{
 .central{
     float: left;
     width: 83.7%;
-    border: 1px solid red;
+    
     margin-left: 1%;
     padding: 1px;
-    background-color: rgb(171, 245, 237);
+    
 }
 .pie{
-    margin-top: 46%;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width: 100%;
     text-align: right;
-    position: relative;
     background-color: darkblue;
     color: yellow;
     padding: 1px;
+    margin-left: 0.4%;
 }
 li{
     color: yellow;
@@ -63,14 +67,16 @@ a{
     color: white;
 }
 
-img{
+.logo>img{
     width: 280px;
     height: 100px;
     
 }
 
 .aviso{
-    border: 1px solid red;
+    border: 5px double red;
+    
+    background-color: rgb(171, 245, 237);
     background-image: url("imagenes/construccion.png"),
                       url("imagenes/construccion.png");                
     background-repeat:no-repeat,
@@ -82,6 +88,7 @@ img{
 }
 
 .tituloaviso{
+    
     font-size: 40px;
     text-align: center;
 
@@ -95,6 +102,7 @@ img{
     background-color: rgb(255, 255, 255);
     float: right;
     border: 2px dashed darkblue;
+    margin-bottom: 2%;
     
 }
 
@@ -102,6 +110,125 @@ img{
     margin-left: 5%;
 }
 
+.areaLimpia>.tablaContenido>ol>li{
+    color: rgb(0, 0, 0);
+}
+
+
 .areaLimpia>.tablaContenido>ol>li>a{
     color: blue;
+}
+
+.cuaderno{
+    background-color: rgb(235, 231, 183);
+}
+
+h2{
+    border: 5px solid darkblue;
+    background-color: rgb(111, 192, 192);
+    padding: 5px;
+    text-align: center;
+}
+
+h3{
+    color: darkblue;
+    margin-left: 1%;
+    border-bottom: 2px solid darkblue;
+}
+
+.cuaderno>ul>li{
+
+    color: darkblue;
+}
+
+.bloqueexplicacion{
+    background-color: rgb(111, 192, 192);
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 2px;
+    margin-bottom: 1%;
+}
+
+.bloqueexplicacion>ol>li{
+    color: black;
+}
+
+.bloqueexplicacion>ol>li>a{
+    color: red;
+}
+
+h4{
+    color: darkblue;
+    margin-left: 1%;
+    font-size: 30px;
+}
+
+.figura>img{
+    display:block;
+    margin:auto;
+    width: 98%;
+}
+
+.figura{
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+    margin-left: 1%;
+    margin-right: 1%;
+    border: 1px solid darkblue;
+}
+
+.bloqueexplicacion>ul>li{
+    color: black;
+}
+
+.bloqueexplicacion>dl>dd>ul>li{
+    color: black;
+}
+
+.identificadorExp{
+    border: 3px solid darkblue;
+    background-color: green;
+    color: darkblue;
+}
+
+.codigo{
+    background-color:blue;
+    color: white;
+    border: 3px solid darkblue;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.identificadorEje{
+    border: 3px solid darkblue;
+    background-color: rgb(235, 129, 8);
+    color: rgb(0, 0, 0);
+}
+
+.salidapantalla{
+    background-color: black;
+    border: 2px double green;
+    color: green;
+    margin-right: 1%;
+    padding-left: 5px;
+}
+
+.ecuacion>img{
+    display:block;
+    margin:auto;
+}
+
+.identificadorPro{
+    border: 3px solid darkblue;
+    background-color: rgb(251, 255, 0);
+    color: rgb(0, 0, 0);
+}
+
+.bloqueexplicacion>ul>li>a{
+    color: red;
+}
+
+.bloqueexplicacion>ul>li>ul>li{
+    color: black;
 }
